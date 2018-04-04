@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/email1"
+        android:layout_gravity="center"
+        />
+
+    <Spinner
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:id="@+id/spinner"
+    android:hint="Branch"
+    android:layout_marginTop="25dp"
+    android:spinnerMode="dropdown" />
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:id="@+id/spinner1"
+        android:hint="Branch"
+        android:layout_marginTop="25dp"
+        android:spinnerMode="dropdown" />
+
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="251dp"
+        android:layout_height="35dp"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#F44336"
+        fancy:fb_focusColor="#FFCDD2"
+        fancy:fb_fontIconResource="&#xf03a;"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Get Email List"
+        fancy:fb_textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:onClick="getmaillist"
+        android:id="@+id/getEmaillist"
+        android:layout_marginTop="15dp"/>
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="251dp"
+        android:layout_height="35dp"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#F44336"
+        fancy:fb_focusColor="#FFCDD2"
+        fancy:fb_fontIconResource="&#xf0fb;"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Send"
+        fancy:fb_textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:onClick="getmaillist"
+        android:id="@+id/sendEmail"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:background="@drawable/gdrive"
+    android:paddingBottom="50dp"
+   >
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#F44336"
+        fancy:fb_focusColor="#FFCDD2"
+        fancy:fb_fontIconResource="&#xf06e;"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="View Contents"
+        fancy:fb_textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:onClick="upload"
+        android:id="@+id/button"
+        android:layout_marginTop="20dp"/>
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#F44336"
+        fancy:fb_focusColor="#FFCDD2"
+        fancy:fb_fontIconResource="&#xf0ee;"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Upload Images"
+        fancy:fb_textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:onClick="open"
+        android:id="@+id/button2"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

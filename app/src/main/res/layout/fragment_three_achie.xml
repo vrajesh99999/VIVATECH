@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_hitlable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    card_view:contentPadding="5dp"
+                    android:elevation="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="25sp"
+                        android:layout_gravity="center"
+                        android:text="Heartiest Congratulations"/>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_hitimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    card_view:contentPadding="5dp">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/hitlogo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="220dp"
+                        android:src="@drawable/achie3" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_hittext"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    card_view:contentPadding="10dp"
+                    android:elevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/achie3"
+                            android:textColor="#000000"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_hitimg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    card_view:contentPadding="5dp">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/hitlogo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="220dp"
+                        android:src="@drawable/achie4" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_hittext1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    card_view:contentPadding="10dp"
+                    android:elevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Akshay Abhyankar and Harshit Damani were recognized by MICROSOFT for successfully Developing and Uploading WINDOWS APPLICATION. Congratulations.
+"
+                            android:textColor="#000000"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+
+
+                <Button
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/image"
+                    android:textSize="15sp"
+                    android:background="#ffffff"
+                    android:text="Click Here For Images..."
+                    android:textColor="@color/primaryColor"
+                    android:onClick="onClick"/>
+
+
+                <Button
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/start"
+                    android:textSize="15sp"
+                    android:background="#ffffff"
+                    android:text="Click Here For More..."
+                    android:textColor="@color/primaryColor"
+                    android:onClick="onClick"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+
+    <!--
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webView_csi">
+
+        </WebView>
+        -->

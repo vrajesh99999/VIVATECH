@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#F1433C</color>
+    <color name="primaryColorDark">#D03033</color>
+    <color name="accentColor">#1AFFFFFF</color>
+
+
+    <color name="ColorPrimary">#F1433C</color>
+    <color name="ColorPrimaryDark">#D03033</color>
+    <color name="tabsScrollColor">#004D40</color>
+
+    <color name="babeCane">#2196F3</color>
+
+    <color name="pink_transparent">#aa700d39</color>
+    <color name="green_transparent">#aa375a1f</color>
+    <color name="blue_transparent">#aa293576</color>
+    <color name="red_transparent">#aa7f3907</color>
+    <color name="holo_red_light_transparent">#aaff4444</color>
+
+    <color name="background_tab_pressed">#1AFFFFFF</color>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr format="color" name="pstsIndicatorColor"/>
+        <attr format="color" name="pstsUnderlineColor"/>
+        <attr format="color" name="pstsDividerColor"/>
+        <attr format="dimension" name="pstsDividerWidth"/>
+        <attr format="dimension" name="pstsIndicatorHeight"/>
+        <attr format="dimension" name="pstsUnderlineHeight"/>
+        <attr format="dimension" name="pstsDividerPadding"/>
+        <attr format="dimension" name="pstsTabPaddingLeftRight"/>
+        <attr format="dimension" name="pstsScrollOffset"/>
+        <attr format="reference" name="pstsTabBackground"/>
+        <attr format="boolean" name="pstsShouldExpand"/>
+        <attr format="boolean" name="pstsTextAllCaps"/>
+        <attr format="boolean" name="pstsPaddingMiddle"/>
+        <attr name="pstsTextStyle">
+            <flag name="normal" value="0x0"/>
+            <flag name="bold" value="0x1"/>
+            <flag name="italic" value="0x2"/>
+        </attr><attr name="pstsTextSelectedStyle">
+        <flag name="normal" value="0x0"/>
+        <flag name="bold" value="0x1"/>
+        <flag name="italic" value="0x2"/>
+    </attr><attr format="float" name="pstsTextAlpha"/>
+        <attr format="float" name="pstsTextSelectedAlpha"/>
+    </declare-styleable>
+
+    <color name="white">#ffffff</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+</resources>

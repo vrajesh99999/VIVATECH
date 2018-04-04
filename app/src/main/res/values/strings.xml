@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">VIVA TECH</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_result">Result</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sdetails">Sdetails</string>
+    <string name="title_activity_notices">Notices</string>
+    <string name="title_activity_student">Student</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_aboutus">About Us</string>
+    <string name="title_activity_notice">Notice</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_studentscrolling">studentscrollin</string>
+    <string name="title_activity_about_viva">AboutViva</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <!--Strings about About Us -->
+    <string name="pmsg">VIVA INSTITUTE OF TECHNOLOGY established in the year 2009,nurtures a unique system of education for creating dynamic leaders in the corporate sector, entrepreneurs, academicians, researchers and professionals who contribute to the development of society and nation at large. It has an aesthetically designed and elegantly built campus furnished with state of art equipment and facilities .\n\n The campus has an ambience that motivates students to grow as enlightened human beings. Here, education is not only focusing on 4 years B.E. degree course but also creating for the students a platform to realize their dreams, hone their cognition, sharpen their competence and carve out a wholesome personality.\n\n This Institutes believes in empowering young students through rigorous curriculum , students participation in R and D, mentor system , value added programs , strong industrial interfaces. Value based education approach is adopted by this institute for instilling principles and exemplary standards of discipline among the students through an organized structure to produce professionals of global excellence. The accomplished team of professors groom and guide students to the best of their capacity. They work most diligently towards synergizing theoretical knowledge and practical skills to promote all round professional competence.
+        \n\n \u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020-Dr. Arun Kumar</string>
+    <string name="aboutus"><b>VIVA Institute of Technology</b> (Approved by AICTE, New Delhi, DTE, Govt. of Maharashtra and Affiliated to the University of Mumbai) was established under the aegis of Late Shri Vishnu Waman Thakur Trust with the aim of imparting higher knowledge in Science and Technology to the aspiring boys and girls so that they can emerge as competent scientists, engineers and technologists of repute.\n\n VIVA Institute of Technology was started in the year 2009. We have fully equipped laboratories in all the departments. To support the knowledge needs of the students, we have fully computerized library with more than 11110 books, international journals and e-journals and several national journals.</string>
+    <string name="trust"><b>Late Shri Vishnu Waman Thakur Charitable Trust</b> was formed in the year 1988 under the president-ship of Shri Hitendraji Thakur, MLA of Vasai Taluka. The trust was formed to handle several concern and to uplift a remote area like Vasai. The provision of education,medical and social facilities to the residents of such area was the primary focus.\n\n Accordingly,in 1989 itself the trust started a school “UTKARSHA VIDYALAYA”. As of today,around 3500 student are studying in the school. Thus by providing educational facility it provided an opportunity for the students dwelling in the rural belt.\n\n In the year 2000 , the trust started a college known as “VIVA COLLEGE” and in a span of 5 years the strength of the college has risen from 35 students to 7000 students. Having updated itself with concerned requirements, the college now provides and different courses , in addition to the traditional courses of the Science, Commerce and Arts Streams, which are B.Sc(Information Technology), B.Sc(Computer Science), B.Sc(BIO-TECH), B.M.S(Bachelor of Management Studies), B.M.M(Bachelor Of Mass Media), B.Com(Banking and Insurance), B.Com(Accounting and Finance) and Bachelor Hotel and Tourism Management.</string>
+    <string name="vision"><b>Viva Institute of Technology</b> strives to impart total quality education by means of equip students with knowledge and skills in their chosen stream, inculcate cultural and ethical values, identify hidden talents, provide opportunities for students to realize their full potential and thus shape them into future leaders, entrepreneurs and above all good human beings.</string>
+    <string name="mission">To develop the standard of the institute above bench mark level, providing students with advanced knowledge and latest technology in the chosen discipline by tapping their hidden and obvious potential, moulding them into good and responsible citizens by playing a meaningful role in industry and society.</string>
+    <string name="trust2">
+    <b>Objective of Trust :\n\n</b>
+    - To spread and promote quality and global education.\n\n
+    - To make such education available to all, without any distinction of caste, creed, class or community.\n\n
+    - To provide, maintain, run and conduct Hostels, Boarding Houses, and Residential quarters for students and staff.\n\n
+    - To promote and impart structured education in various fields, including Engineering, Technical, Medical etc.\n\n
+    - To establish, assist and to conduct educational institutions in rural areas or at such place or places as the Trust may decide from time to time.\n\n
+    - To engage in activities necessary for the promotion of education in various fields, either along or in conjunction with any other institution or entities.\n\n
+    </string>
+    <string name="actionbar_title">Developers</string>
+
+
+    <string name="hittext"><b>Hitaishi\n\n</b>
+
+            Students of VIVA Institute of Technology, Virar organised annual cultural and Sports events under the banner of “HITAISHI” every year in the month of January or February.\n\n
+
+            The Cultural Events Includes: Dance, Singing, Photography, Rangoli and others\n\n
+
+            The Sports Events Includes: Cricket, football, Volleyball, Chess, Carom, Badminton and many more\n\n
+
+            All the Students actively participates in this event</string>
+
+
+
+
+    <string name="techtext"><b>Techchase\n\n</b>
+
+            Engineering students of VIVA Institute of Technology organizes Inter collegiate Technical Festival <b>Techchase</b> every year in the month of Septembe.\n\n
+
+            Total number of events happens in Techchase: 30 to 40\n\n
+
+            Few major events are Laser Tag, Mud Race, Enable Me, Mazomania, Renovation With Innovation, Bug Fixing, F1 Racing, Morse Coder.\n\n
+
+            Students of other Engineering colleges also participates in various events. Winners are awarded with certificates and cash prizes. All the faculty members also involves in planning, guiding and motivating the students in various events.\n\n
+
+            It is an excellent platform for the students to exhibit their talents. And Techchase wents grand success every year.\n\n
+    </string>
+
+
+
+
+    <string name="csitext"><b>Computer Society of India</b> is the first and largest body of computer professionals in India.
+            It was started on 6 March 1965 by a few computer professionals and has now grown to be the national body representing
+            computer professionals. It has 72 chapters across India, 511 student branches, and more than 100,000 members.\n\n
+
+            The Computer Society of India is a non-profit professional meet to exchange views and information learn and share ideas.
+            The wide spectrum of members is committed to the advancement of theory and practice of Computer Engineering and Technology Systems,
+            Science and Engineering, Information Processingand related Arts and Sciences.
+    </string>
+
+    <string name="iiietext"><b>The Events conducted under IIIE-VIT in 2014-15\n\n</b>
+
+            <b>Guest Lecture\n\n</b>
+
+            An awareness program conducted by AWPM (Asociation of Welding Products Manufacturers) on do’s and dont’s in Welding and Cutting,
+            also the current market values of professional welder Nationally and Internationally.
+            Following resource persons from corporate sector delivered a talk on welding related concepts.\n\n
+
+            Mr. Kishor A. Shetty, MD Royal Arc Electrodes Ltd.\n\n
+
+            Mr. Ramakanth D. Bhagavath, Director WARPP Engineers Pvt. Ltd.\n\n
+
+            Mr. Prabhudas N. Golla, Director WARPP Engineers Pvt. Ltd.</string>
+
+
+
+    <string name="sttptext"><b>One week Short Term Training Program approved by ISTE, New Delhi</b> was conducted from 23rd Dec 2013 to 28th Dec 2013.\n\n
+
+            <b>Resource persons from the corporate sector</b>\n\n
+
+            Shri Ashok Asawale, Vice President, Mahindra And Mahindra\n\n
+            Shri Vishwanath Pandey\n\n
+            Shri Balkrishna Baranwal, Group Leader, TCS\n\n
+            Shri Pradeep Ranade. RD, Siemens\n\n
+            Shri Sandeep Nemlekar, TATA Reality and Infrastructure Ltd\n\n
+            Shri Ravi Raman\n\n</string>
+
+
+    <string name="ncrenbtext1">The main objectives of the <b>National Conference</b>are to advance knowledge in building sciences in general, and in aspects of building and construction in particular;
+            to solve long-range problems of the building sector through methodological research and development;
+            to provide support in solving short-term needs in areas where its expertise is crucial; and to disseminate knowledge and transfer technology.\n\n
+
+            VIVA Institute of Technology, Mumbai is organizing the national conference on the “Role of Engineers in Nation Building” on 3rd and 4th March 2016.
+            The role of an engineer is far reaching and beyond the vistas of human thinking and imagination.
+            The emerging technologies of communications and computing have brought about a revolution in everyday life during the 21th century. The familiar mobile phones,
+            CD players and fax machines are being joined by digital broadcast radio and televisions which offer more channels and much clearer sound and pictures.
+    </string>
+
+
+
+
+    <string name="achie1">
+            A team of 26 students of Mechanical Engineering from VIVA Institute of Technology,
+            participated in National Student’s Space Challenge 2015, the most prestigious  Space technology festival in India,
+            where brilliant young minds compete with cutting edge research for national glory.\n\n
+            The event was held from 30th October’2015 -1st November’2015 at I.I.T., Kharagpur.
+            Shattering all previous records with a magnanimous margin, our students got 1st, 2nd, 5th and 6th positions in Lift off,
+            the annual “National Student’s Space Challenge ‘2015” competition.
+    </string>
+    <string name="achie2">
+    On 1st Oct, 2015 at the AAKRUTI finals a project called NIRVIDYUT 1.0 by two students Omik M. Save and Krishna G.
+    Navale of Third Year Mechanical Engineering Bagged the First Runner UP Position.\n\n
+    They received the awards from the hands of top executives of Dassault Systems and SolidWorks including Mr. Patrick,
+    CEO SolidWorks and Dr. Chandan Chawdhary, MD SolidWorks.
+    </string>
+
+
+    <string name="achie3">
+    Heartiest congratulations to Mr. Harshit Damani, Mr. Akshay Abhyankar and Ms. Ashwini Bhoir for standing
+    1st in NCRENB- 15 Project Showcase held at VIVA Institute of Technology\n\n And standing 3rd in National Level Project competition
+    held at Vidyalakar Institute of Technology.
+    </string>
+
+    <string name="achie4">
+    Congratulations to Agaskar Ankit, Joshi Shreyas, Annaldas Lalitkumar,Ajgaonkar Prachi won consolation prize in
+    project exhibition at Universal college of engineering for their BE project on “Arduino based Industrial Conveyor Belt”
+    </string>
+
+
+    <string name="achie5">
+    Congratulations to Satish Prabhu, Jay Kumar Bhuchhada, Amankumar Dabhi, Pratik Shetty won third  prize in
+    project exhibition at Viva Institute of technology  for their BE project on” Real Time Skeleton Tracking
+    based Human Recognition System using Kinect and Arduino”
+</string>
+
+
+    <string name="achie6">
+    Congratulations to Satish Prabhu, Jay Kumar Bhuchhada, Amankumar Dabhi, Pratik Shetty won consolation
+    prize in project exhibition at Universal college of engineering for their BE project on” Real Time
+    Skeleton Tracking based Human Recognition System using Kinect and Arduino”
+</string>
+
+
+    <string name="achie7">
+    Final year students Rujuta Kambli, Ravi Yadav,Tejas Shetye  from 2015-2016 batch won consolation Prize
+    in 2nd National level technical paper presentation 2015 at Universal college of engineering,Next to
+    Kaman River,Bhivandi Road,Vasai
+    Paper Entitled:Secure healthcare for patients using cloud computing
+</string>
+
+    <string name="achie8">
+    Heartiest congratulations to Mr. Nishant Shekhar, Mr. Sughosh Sawant, Ms. Anjali Pokkalath
+    and Mr. Abhishek Kurup for securing 2nd Position in autoSTROKE 2014, a National Level Design
+    challenge series held at IIT Hyderabad on 1st and 2nd Nov, 2014.
+</string>
+
+    <string name="achie9">
+    Mr. Rohit Patole, Asst-Proff, Mechanical Engineering student designed, fabricated and demonstrated
+    working of ARDENT (offroad go-cart) in VIVA Institute of Technology during TECHCHASE-2014 (Technical Festival).
+    The video shows the working of the car.
+</string>
+
+    <string name="achie10">
+    Heartiest congratulations to Mr. Writwik Bhattacharya and Mr. Akshat Mokashi for standing 1st in
+    NCRENB- 14 Project Showcase held at VIVA Institute of Technology.
+</string>
+
+    <string name="title_activity_cgpi">cgpi</string>
+    <string name="title_activity_cgpical">cgpical</string>
+
+</resources>

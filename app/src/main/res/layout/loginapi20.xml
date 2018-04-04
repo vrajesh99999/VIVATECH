@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+  android:id="@+id/loginapi20layout"
+    android:weightSum="1"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:src="@drawable/viva"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_gravity="center_horizontal"
+        android:text="VIVA TECH"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginTop="15sp"
+        android:textColor="#EEEEEE" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:weightSum="1"
+
+        android:layout_gravity="center">
+
+        <EditText
+                android:layout_width="291dp"
+                android:layout_height="41dp"
+                android:hint="Username"
+                android:id="@+id/editText"
+               android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+                android:textSize="15sp" />
+
+        <EditText
+                android:layout_width="291dp"
+                android:layout_height="41dp"
+                android:hint="Password"
+                android:layout_marginTop="20dp"
+                android:id="@+id/editText2"
+                android:inputType="textPassword"
+                android:textSize="15sp"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                <RadioButton android:id="@+id/staff"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="Staff"
+                    android:onClick="onRadioButtonClicked"/>
+                <RadioButton android:id="@+id/student"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="Student"
+                    android:onClick="onRadioButtonClicked"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="291dp"
+            android:layout_height="41dp"
+            android:text="Login"
+            android:id="@+id/button"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:textSize="20sp"
+            android:background="#E0E0E0"
+            android:layout_marginTop="40sp"
+            android:textColor="#616161" />
+
+        </LinearLayout>
+
+
+</LinearLayout>
+
+

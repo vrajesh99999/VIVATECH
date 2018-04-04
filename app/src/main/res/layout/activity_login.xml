@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+   android:id="@+id/loginlayout"
+    android:weightSum="1"
+   >
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/viva"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_gravity="center_horizontal"
+        android:text="VIVA TECH"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginTop="10sp"
+        android:textColor="#EEEEEE" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:weightSum="1"
+    android:layout_gravity="center_horizontal">
+
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        app:mtf_image="@drawable/ic_perm_identity_black_24dp"
+
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:alpha="0.25"
+            android:id="@+id/editText"
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        app:mtf_openKeyboardOnFocus="true"
+
+        app:mtf_image="@drawable/ic_fingerprint_black_24dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:alpha="0.25"
+            android:id="@+id/editText2"
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton android:id="@+id/staff"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Staff"
+                android:layout_weight="5"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/student"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="Student"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="291dp"
+        android:layout_height="41dp"
+        android:text="Login"
+        android:id="@+id/button"
+        android:onClick="onClick"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0.15"
+        android:background="#E0E0E0"
+        android:textColor="#616161" />
+
+        </LinearLayout>
+
+
+</LinearLayout>
+
+
